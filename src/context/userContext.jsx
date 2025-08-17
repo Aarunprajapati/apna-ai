@@ -28,7 +28,7 @@ const UserContext = ({ children }) => {
     // Have the AI speak its response
     speak(newText);
     setResponse(true);
-    setPrompt(newText);
+    // setPrompt(newText);
   }
 
   // Function to convert AI's text response to speech
